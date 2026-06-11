@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# 📅 TimeTable App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clean and interactive **Class Timetable Management App** built with **React.js** — designed to help students and teachers easily manage and view class schedules.
 
-## Available Scripts
+🔗 **Live Demo:** [https://time-table-app-rho.vercel.app/](https://time-table-app-rho.vercel.app/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 📋 View weekly class timetable in a structured grid
+- ➕ Add new classes with subject, time, and day details
+- 🗑️ Delete existing classes from the schedule
+- 🎨 Clean and responsive UI with gradient styling
+- ⚡ Fast performance with React component architecture
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Technology | Usage |
+|------------|-------|
+| React.js | Frontend framework |
+| JavaScript (ES6+) | Application logic |
+| CSS3 | Styling & gradients |
+| Vercel | Deployment |
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+timetable-app/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── AddClassForm.js       # Form to add new classes
+│   │   ├── Header.js             # App header component
+│   │   └── TimetableGrid.js      # Main timetable grid display
+│   ├── App.css                   # Global styles
+│   ├── App.js                    # Root component
+│   ├── App.test.js               # Test file
+│   ├── index.css                 # Base CSS
+│   ├── index.js                  # Entry point
+│   ├── logo.svg                  # React logo
+│   ├── reportWebVitals.js        # Performance reporting
+│   └── setupTests.js             # Test setup
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Make sure you have **Node.js** and **npm** installed.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Clone the repository
+git clone https://github.com/Bushra3895/TimeTable-App.git
 
-## Learn More
+# Navigate to project folder
+cd TimeTable-App
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Install dependencies
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Start the development server
+npm start
+```
 
-### Code Splitting
+The app will open at `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📦 Build for Production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm run build
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🌐 Deployment
 
-### Advanced Configuration
+This app is deployed on **Vercel**.  
+Live URL: [https://time-table-app-rho.vercel.app/](https://time-table-app-rho.vercel.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 👩‍💻 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Bushra** — [@Bushra3895](https://github.com/Bushra3895)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
