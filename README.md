@@ -53,7 +53,22 @@ timetable-app/
 ```
 
 ---
+## 📸 Project Screenshots
 
+### 🏠 Home Page
+
+<p align="center">
+  <img src="time-table.PNG" alt="Time Table App Home" width="100%">
+</p>
+
+---
+
+### 📅 Timetable View
+
+<p align="center">
+  <img src="timetable-set.PNG" alt="Time Table Schedule" width="100%">
+</p>
+---
 ## 🚀 Getting Started
 
 ### Prerequisites
